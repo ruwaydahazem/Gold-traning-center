@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>مركز التدريب المهني</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="animated-title">مرحبًا بكم في مركز التدريب المهني</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">عن المركز</a></li>
+                <li><a href="#">المدربون</a></li>
+                <li><a href="#">تسجيل الطلاب</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>من نحن؟</h2>
+            <p>نقدم برامج تدريبية تؤهلك لسوق العمل في عدة مجالات مثل التصميم والترجمة واللغات.</p>
+        </section>
+
+        <section id="image">
+            <h2>قاعة التدريب</h2>
+            <img src="download001.jpg" alt="صورة قاعة التدريب" style="max-width:300px; border-radius:10px;">
+        </section>
+
+        <section>
+            <button onclick="showTrainers()">إظهار أسماء المدربين</button>
+            <button onclick="showCourses()">إظهار أسماء الدورات</button>
+            <button onclick="showTimes()">إظهار أوقات الدورات</button>
+            <button onclick="showFees()">إظهار رسوم التسجيل</button>
+            <ul id="output"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © مركز التدريب المهني 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
